@@ -1,0 +1,11 @@
+<!-- album.component.html -->
+<div class="wrapper">
+    <div class="book">
+      <div class="page" *ngFor="let image of images; let i = index" 
+     (click)="bookOpen(i + 1, 'left')" (contextmenu)="bookOpen(i + 1, 'right')">
+  <img [src]="image" alt="">
+</div>
+
+    </div>
+  </div>
+  

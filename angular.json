@@ -37,7 +37,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/css/docs.css",
+              "src/assets/css/jquery.ui.css",
+              "src/assets/css/jquery.ui.html4.css"
+              
             ],
             "scripts": [],
             "server": "src/main.server.ts",
